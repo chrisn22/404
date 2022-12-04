@@ -1,0 +1,89 @@
+.page{
+display: flex;
+}
+
+.card{
+padding-bottom: 10%;
+padding-top: 10%;
+font-weight: bold;
+border: none;
+} 
+
+.img{
+    max-width: 40%;
+    max-height: 40%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: auto;
+    object-fit: fill;
+margin-right: 110px;
+margin-left: 50px;
+}
+
+@media screen and (minwidth: 600px){
+    .body{
+        font-family: 'Space Mono';
+        font-weight: bold;
+    }
+}
+
+.btn{
+    border-radius: 0%;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 12px;
+    width: 180px;
+}
+
+.card-text{
+    font-weight: 500;
+    padding-right: 50%;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+
+.card-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.h2{
+    margin-left: 60px;
+}
+
+.body{
+    font-family: 'Space Mono';
+    font-weight: bold;
+}
+
+@media screen and (minwidth: 600px){
+.img{
+width: 100%;
+height: 100%;
+object-fit:contain;
+display: flex;
+flex-direction: column;
+max-width: max-content;
+max-height: max-content;
+}
+}
+
+@media screen and (minwidth: 600px){
+.caja1{
+    display: flex;
+    flex-direction: column;
+    }
+}
+
+@media screen and (minwidth: 600px){
+.card{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-weight: bold;
+    border: none;
+display: flex;
+flex-direction: column;
+    }
+}
+
